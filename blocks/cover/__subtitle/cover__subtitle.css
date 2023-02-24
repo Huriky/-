@@ -11,6 +11,12 @@
     padding-top: 32px;
 }
 
+@media (max-width: 1024px) {
+    .cover__subtitle {
+        bottom: 195px;
+    }
+}
+
 @media (max-width: 768px) {
     .cover__subtitle {
         bottom: 115px;

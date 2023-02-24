@@ -8,6 +8,7 @@
     padding-top: 8px;
     display: flex;
     align-self: start;
+    margin: 0;
 }
 
 @media (max-width: 768px) {
