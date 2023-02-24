@@ -22,7 +22,6 @@
     .place {
         gap: 32px;
         grid-template: 1fr/ 320px;
-        padding-bottom: 50px;
     } 
 
     .place:last-child {
