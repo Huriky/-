@@ -7,7 +7,7 @@
 
 **Ссылка на проект**
 
-* [Ссылка на cайт](https://huriky.github.io/Russian-Travels/)
+* [Ссылка на cайт](https://huriky.github.io/russian-travel/)
 
 **Цель проекта**
 
