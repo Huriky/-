@@ -1,6 +1,15 @@
+.footer__links {
+    display: grid;
+    grid-template: 1fr / repeat(5, 1fr);
+    column-gap: 18px;
+    max-width: min-content;    
+}
+
 @media (max-width: 320px) {
     .footer__links {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template: repeat(5, 1fr) / 1fr;
+        max-width: min-content;
+        row-gap: 32px;
     }
 }

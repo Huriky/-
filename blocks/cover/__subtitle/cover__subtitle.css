@@ -5,31 +5,32 @@
     text-align: center;
     color: #FFFFFF;
     margin: 0;
-    width: 360px;
-    position: absolute;
-    bottom: 245px;
-    padding-top: 32px;
+    max-width: 30%;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    height: max-content;
+    z-index: 2;
+    align-self: center;
+    padding-top: 182px;
 }
 
 @media (max-width: 1024px) {
     .cover__subtitle {
-        bottom: 195px;
+        max-width: 35%;
     }
 }
 
 @media (max-width: 768px) {
     .cover__subtitle {
-        bottom: 115px;
+        max-width: 47%;
     }
 }
 
 @media (max-width: 320px) {
     .cover__subtitle {
-        font-weight: 400;
         font-size: 14px;
         line-height: 16px;
         max-width: 80%;
-        bottom: 33px;
-        padding-top: 16px;
+        padding-top: 86px;
     }
 }

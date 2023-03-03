@@ -4,29 +4,26 @@
     line-height: 100px;
     text-align: center;
     color: #FFFFFF;
-    padding: 0 280px 0 280px;
     margin: 0;
-    width: 720px;
+    max-width: 74%;
 }
 
 @media (max-width: 1024px) {
     .lead__title {
-        padding: 0 152px 0 152px;
+        max-width: 78%;
     }
 }
 
 @media (max-width: 768px) {
     .lead__title {
-        padding: 0 24px 0 24px;
+        max-width: 94%;
     }
 }
 
 @media (max-width: 320px) {
     .lead__title {
-        padding: 0 16px 0 16px;
-        font-weight: 900;
         font-size: 40px;
         line-height: 44px;
-        max-width: calc(100% - 16px - 16px);
+        max-width: 90%;
     }
 }
