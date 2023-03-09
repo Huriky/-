@@ -9,7 +9,7 @@
     column-gap: 18px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .header__lang {
         font-size: 18px;
         line-height: 20px;

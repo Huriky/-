@@ -13,19 +13,19 @@
     z-index: 1;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
     .cover__title {
         max-width: 55%;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .cover__title {
         max-width: 73%;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;

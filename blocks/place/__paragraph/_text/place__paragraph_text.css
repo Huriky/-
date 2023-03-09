@@ -1,6 +1,6 @@
 .place__paragraph_text {
     margin: 0;
-    padding-bottom: 26px;
+    padding: 0 0 26px 0;
 }
 
 .place__paragraph_text:nth-of-type(2) {
