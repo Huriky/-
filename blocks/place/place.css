@@ -1,6 +1,6 @@
 .place {
     display: grid;
-    grid-template: 1fr/ 460px 484px;
+    grid-template: 1fr/ 460px 1fr;
     row-gap: 48px;
     column-gap: 40px;
 }
@@ -23,16 +23,4 @@
         row-gap: 32px;
         grid-template: 1fr/ 100%;
     } 
-
-    .place:nth-of-type(2) {
-        padding-bottom: 50px;
-    }
-
-    .place:nth-of-type(3) {
-        padding-bottom: 49px;
-    }
-
-    .place:last-child {
-        padding-bottom: 67px;
-    }
 }
